@@ -27,9 +27,15 @@ header
 }
 #yazi
 {
-    color: aliceblue; 
-    font-size: 40px; 
-    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: aliceblue;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 1;
 }
 
 .menu
@@ -67,3 +73,100 @@ header
 				border-top:5px solid #7D0A0A;
 				color:#7D0A0A;
 			}
+
+
+
+.sol{
+	width: 50%;
+        float: left;
+        background-color:transparent;
+		text-align: center;
+}
+
+.sag{
+	width: 50%;
+	float: right;
+	background-color: transparent;
+	text-align: center;
+}
+
+.partnerler{
+	clear: both;
+	padding-top: 5%;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	margin-bottom: 5%;
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	background-color: lightgray;
+}
+
+.footerLeft{
+	width: 33.3%;
+	display: grid;
+	background-color: lightgray;
+	float: left;
+	padding-top: 3%;
+}
+
+.footerCenter{
+	width: 33.3%;
+	display: grid;
+	background-color: lightgray;
+	float: left;
+}
+
+.footerRight{
+	width: 33.4%;
+	display: grid;
+	background-color: lightgray;
+	float: right;
+	padding-top: 3%;
+}
+
+ul { list-style-type:none; }
+
+/* Hakkında sayfası css kodları */
+.section{
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 300px;
+	border: 5px solid #000;
+	background-color: blueviolet;
+}
+
+/* iletişim sayfası css kodları */
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  .iletisim {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
